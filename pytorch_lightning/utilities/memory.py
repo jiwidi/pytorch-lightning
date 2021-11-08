@@ -112,7 +112,7 @@ def get_memory_profile(mode: str) -> Dict[str, float]:
     r"""
     .. deprecated:: v1.5
         This function was deprecated in v1.5 in favor of
-        `pytorch_lightning.accelerators.gpu._get_nvidia_gpu_stats` and will be removed in v1.7.
+        `pytorch_lightning.utilities.gpu.get_nvidia_gpu_stats` and will be removed in v1.7.
 
     Get a profile of the current memory usage.
 
@@ -145,7 +145,7 @@ def get_gpu_memory_map() -> Dict[str, float]:
     r"""
     .. deprecated:: v1.5
         This function was deprecated in v1.5 in favor of
-        `pytorch_lightning.accelerators.gpu._get_nvidia_gpu_stats` and will be removed in v1.7.
+        `pytorch_lightning.utilities.gpu.get_nvidia_gpu_stats` and will be removed in v1.7.
 
     Get the current gpu usage.
 

@@ -237,7 +237,7 @@ class LoggerConnector:
         """
         .. deprecated:: v1.5
             This function was deprecated in v1.5 in favor of
-            `pytorch_lightning.accelerators.gpu._get_nvidia_gpu_stats` and will be removed in v1.7.
+            `pytorch_lightning.utilities.gpu.get_nvidia_gpu_stats` and will be removed in v1.7.
         """
         for key, mem in self.gpus_metrics.items():
             if self.log_gpu_memory == "min_max":
